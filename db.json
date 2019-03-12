@@ -1,14 +1,158 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "jsonData": [
+    {
+      "id": 0,
+      "simulationName": "Simulation 1",
+      "comment": "Simulation with Architecture 1",
+      "slotCount": 3,
+      "slots": [
+        {
+          "name": "Slot 1",
+          "comment": "Start up",
+          "length": 10,
+          "components": [
+            {
+              "name": "Sensor 1",
+              "mode": "Mode 1",
+              "voltage": 3,
+              "current_min": 1,
+              "current_typ": 10,
+              "current_max": 100
+            },
+            {
+              "name": "Sensor 2",
+              "mode": "Mode 2",
+              "voltage": 3,
+              "current_min": 1,
+              "current_typ": 10,
+              "current_max": 100
+            }
+          ]
+        },
+        {
+          "name": "Slot 2",
+          "comment": "Phase 1",
+          "length": 10,
+          "components": [
+            {
+              "name": "Sensor 1",
+              "mode": "Mode1",
+              "voltage": 3,
+              "current_min": 1,
+              "current_typ": 10,
+              "current_max": 100
+            },
+            {
+              "name": "Sensor 2",
+              "mode": "Mode 2",
+              "voltage": 3,
+              "current_min": 1,
+              "current_typ": 10,
+              "current_max": 100
+            }
+          ]
+        },
+        {
+          "name": "Slot 3",
+          "comment": "Phase 2",
+          "length": 10,
+          "components": [
+            {
+              "name": "Sensor 1",
+              "mode": "Mode 1",
+              "voltage": 3,
+              "current_min": 1,
+              "current_typ": 10,
+              "current_max": 100
+            },
+            {
+              "name": "Sensor 2",
+              "mode": "Mode 2",
+              "voltage": 3,
+              "current_min": 1,
+              "current_typ": 10,
+              "current_max": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "simulationName": "Simulation 2",
+      "comment": "Simulation with Architecture 2",
+      "slotCount": 3,
+      "slots": [
+        {
+          "name": "Slot 1",
+          "comment": "Start up",
+          "length": 10,
+          "components": [
+            {
+              "name": "Sensor 1",
+              "mode": "Mode 1",
+              "voltage": 3,
+              "current_min": 1,
+              "current_typ": 10,
+              "current_max": 100
+            },
+            {
+              "name": "Sensor 2",
+              "mode": "Mode 2",
+              "voltage": 3,
+              "current_min": 1,
+              "current_typ": 10,
+              "current_max": 100
+            }
+          ]
+        },
+        {
+          "name": "Slot 2",
+          "comment": "Phase 1",
+          "length": 10,
+          "components": [
+            {
+              "name": "Sensor 1",
+              "mode": "Mode1",
+              "voltage": 3,
+              "current_min": 1,
+              "current_typ": 10,
+              "current_max": 100
+            },
+            {
+              "name": "Sensor 2",
+              "mode": "Mode 2",
+              "voltage": 3,
+              "current_min": 1,
+              "current_typ": 10,
+              "current_max": 100
+            }
+          ]
+        },
+        {
+          "name": "Slot 3",
+          "comment": "Phase 2",
+          "length": 10,
+          "components": [
+            {
+              "name": "Sensor 1",
+              "mode": "Mode 1",
+              "voltage": 3,
+              "current_min": 1,
+              "current_typ": 10,
+              "current_max": 100
+            },
+            {
+              "name": "Sensor 2",
+              "mode": "Mode 2",
+              "voltage": 3,
+              "current_min": 1,
+              "current_typ": 10,
+              "current_max": 100
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
